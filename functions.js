@@ -55,7 +55,7 @@ function oddsSmallerThan(n) {
     }
     else
     {
-      return n/2;
+     return n/2;
     }
    */
 }
@@ -74,7 +74,7 @@ function oddsSmallerThan(n) {
  */
 function squareOrDouble(n) {
   
-
+//if we want to do a power of, we add two *
   if (n%2 === 0)
 
   return n+n;
