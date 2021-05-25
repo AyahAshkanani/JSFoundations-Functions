@@ -57,10 +57,6 @@ function oddsSmallerThan(n) {
     {
       return n/2;
     }
-
-   if
-   
-   
    */
 }
 
