@@ -23,13 +23,19 @@ function greet(name) {
 function isOdd(n) {
   
   if (n%2 === 0)
-  return false
+  return false;
 
   else
-  return true
+  return true;
+
+  /*ANOTHER WAY TO DO IT IS
+  
+  using ternary operator
+  
+  return((n%2==0)? false : true)
+  */
 }
 
-  isOdd(6);
 
 /**
  * oddsSmallerThan(n):
