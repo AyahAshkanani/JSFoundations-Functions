@@ -43,8 +43,25 @@ function isOdd(n) {
 function oddsSmallerThan(n) {
 
    
-  return Math.floor(n/2);
 
+   return Math.floor(n/2);
+
+   /*
+   ANOTHER WAY TO DO IT
+
+    if(isOdd(n))
+    {
+      return (n-1)/2;
+    }
+    else
+    {
+      return n/2;
+    }
+
+   if
+   
+   
+   */
 }
 
 
